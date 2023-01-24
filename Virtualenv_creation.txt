@@ -1,0 +1,12 @@
+1.install virtualenv module
+2.virtualenv (file_name) -->to create a clean virtualenv
+3..\(file_name)\Scripts\activate -->to activate the virtualenv
+4.deactivate -->to deactivate the virtualenv
+5.pip freeze > requirments.txt  -->to make requirments.txt file
+6. pip install (module_name)==(version) -->for import module of current
+                                           version
+7. virtualenv --system-site-packages (file_name) -->to create virtualenv
+                                                    with all the system 
+                                                    modules
+8.if virtualenv not activated then open powershell from admin & -->
+   set-executionpolicy remotesigned
